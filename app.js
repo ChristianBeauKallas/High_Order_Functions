@@ -1,13 +1,13 @@
 // // Exercise 1 Section
 // console.log("EXERCISE 1:\n==========\n");
 
-// function plus (number){
-//     return (plusNumber) => {
-//         return number + plusNumber ;
-//     }
-// }
-// let plus15 = plus(15);
-// console.log(plus15(10));
+function plus (number){
+    return (plusNumber) => {
+        return number + plusNumber ;
+    }
+}
+let plus15 = plus(15);
+console.log(plus15(10));
 
 // // Exercise 2 Section
 let hobbits = [
@@ -37,31 +37,31 @@ let hobbits = [
     },
 ];
 
-// hobbits.forEach(function(user){
-//     console.log(user.name);
-// });
+hobbits.forEach(function(user){
+    console.log(user.name);
+});
 
 // // Exercise 3
 
-// let hobbits = hobbits.map(function(user){
-//     return {
-//         "hobbits.name": user.name,
-//         "hobbits.score": user.score
-//     };
-// });
+let hobbits = hobbits.map(function(user){
+    return {
+        "hobbits.name": user.name,
+        "hobbits.score": user.score
+    };
+});
 
 // console.log(hobbits);
 
 // // Exercise 4
 
-// let activeHobbits = hobbits.filter (user => user.isActive);
+let activeHobbits = hobbits.filter (user => user.isActive);
 
-// console.log(activeHobbits);
+console.log(activeHobbits);
 
 // // Exercise 5
 
-// hobbits.sort((a, b) => b.score - a.score);
-// console.log(hobbits);
+hobbits.sort((a, b) => b.score - a.score);
+console.log(hobbits);
 
 // Exercise 6
 
